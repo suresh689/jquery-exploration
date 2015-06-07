@@ -1,0 +1,54 @@
+<!doctyppe html>
+<html>
+
+<head>
+<title>welcome to Registration page</title>
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+<script src="js/jquery.js" type="text/javascript"></script>
+<script src="js/animation.js" type="text/javascript"></script>
+<script src="js/validation.js" type="text/javascript"></script> 
+</head>
+<body>
+
+<form name="myform" onsubmit="return validateForm()">
+
+<ul>
+<li class="title">Who are You?</li>
+<li class="fields">
+<label>*First Name</label><br />
+
+<input id="first_name" name="f1" class="req" type="text"/><br />
+<label>Middle Name</label><br />
+<input id="middle_name" name="f2" type="text"/><br />
+<label>*Last Name</label><br />
+<input id="Last_name" name="f3" class="req" type="text"/><br />
+<label>*Email</label><br />
+<input id="email" name="f4" class="req" type="text"/><br />
+</li>
+<li class="title">Where are You?</li>
+<li class="fields">
+<label>City</label><br />
+<input id="city" name="w1" type="text"/><br />
+<label>*State</label><br />
+<input id="state" name="w2" class="req" type="text"/><br />
+<label>Country</label><br />
+<input id="country" name="w3" type="text"/><br />
+</li>
+<li class="title">What do You do?</li>
+<li class="fields">
+<label>*Occupation</label><br />
+<input id="occupation" name="d1" class="req" type="text"/><br />
+<label>Company Name</label><br />
+<input id="company" name="d2" type="text"/><br />
+<label>Company Location</label><br />
+<input id="location" name="d3" type="text"/><br />
+</li>
+</ul>
+
+
+<input type="submit" name="submit" value="save" />
+
+</form>
+
+</body> 
+</html>

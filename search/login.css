@@ -1,0 +1,190 @@
+/* Login Form Styles start Here*/
+*{
+	font-family :'tinymce', Arial !important;
+}
+.main{
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
+	overflow: hidden;
+}
+
+
+
+.header {
+	height: 100px;
+	overflow: hidden;
+}
+
+._login_form {
+	position: absolute;
+	width: 420px;
+	border: 2px solid #CCC;
+	border-radius: 5px;
+	overflow: hidden;
+	left: 50%;
+	top: 50%;
+	margin-left: -210px;
+	margin-top: -250px;
+}
+
+._login_header {
+	height: 62px;
+	background: #334A61;
+	width: 100%;
+	padding-top: 10px;
+}
+
+._login_header p{
+	height: 50px;
+	width: 240px;
+	margin: auto;
+	font-size: 18px;
+	color: #FFF;
+	text-align: center;
+	line-height: 50px;
+}
+
+._login_details {
+	padding: 20px;
+	padding-top: 40px;
+}
+
+._login_details .row_3 {
+	padding: 0px 10px 0px 20px;
+
+}
+
+._login_details .row_3 p {
+	font-size: 14px;
+	   
+	color: #F00;
+}
+
+._login_details .row_1 {
+	padding: 5px 10px 5px 20px;
+	height: 30px;
+}
+
+._login_details .row_1 input[type="checkbox"] {
+	margin-top: 3px;
+	height: 18px;
+	width: 18px;
+	background-color: #FFF;
+	border: 1px solid #E5E5E5;
+	float: left;
+	line-height: 30px;
+}
+
+._login_details .row_1 input[type="submit"] {
+	padding: 10px;
+	width: 110px;
+	position: absolute;
+	right: 30px;
+	bottom: 60px;
+	opacity: 0;
+}
+
+._login_details .row_1 #login {
+	color: #FFF;
+	font-size: 14px;
+	padding: 10px 20px 10px 20px;
+	margin-top: 5px;
+	   
+}
+
+._login_details .remember {
+	float: left;
+	padding-top: 8px;
+}
+
+._login_details .remember span {
+	padding-left: 5px;
+	   
+	font-size: 14px;
+}
+
+._login_details .row {
+	margin: 0px;
+	padding: 10px 20px 10px 20px;
+	height: 60px;
+}
+
+._login_details .row input[type="email"] {
+	height: 38px;
+	width: 340px;
+	border: 1px solid #CCC;
+	background-color: #F7F7F7;
+	padding-left: 15px;
+	font-size: 16px;
+	color: #142D43;
+	   
+	border-radius: 5px;
+}
+
+._login_details .row input[type="password"] {
+	height: 38px;
+	width: 340px;
+	border: 1px solid #CCC;
+	background-color: #F7F7F7;
+	padding-left: 15px;
+	font-size: 16px;
+	color: #142D43;
+	   
+	border-radius: 5px;
+}
+
+._login_button {
+	background: #0083C7;
+	float: right;
+	margin-right: 4px;
+	overflow: hidden;
+	cursor: pointer;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 5px;
+}
+
+._login_button p {
+	color: #0079C2;
+	float: left;
+	line-height: 20px;
+	font-size: 18px;
+}
+
+._login_footer {
+	height: 50px;
+	border-top: 2px solid #CCC;
+}
+
+._login_footer p {
+	text-align: center;
+	color: #333;
+	font-size: 14px;
+	   
+	cursor: pointer;
+	line-height: 50px;
+}
+
+._footer {
+	background-image: url(Assets/Globale_images/BG_Graph.png);
+	width: 100%;
+	height: 180px;
+	position: absolute;
+	bottom: 0px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#login {
+	cursor: pointer;
+}
+
+input[type="submit"] {
+	cursor: pointer;
+}
+

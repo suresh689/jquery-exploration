@@ -1,0 +1,23 @@
+{
+  "Data":[
+
+	{
+	  "title": "Movi",
+	  "Desc": "ABCDE",
+	  "Rating": "4/5",
+	  "image": "default.png"
+	},
+	{
+	  "title": "Venkat",
+	  "Desc": "ABCDE",
+	  "Rating": "4/5",
+	  "image": "default.png"
+	},
+	{
+	  "title": "Raju",
+	  "Desc": "ABCDE",
+	  "Rating": "4/5",
+	  "image": "default.png"
+	}
+  ]
+}
